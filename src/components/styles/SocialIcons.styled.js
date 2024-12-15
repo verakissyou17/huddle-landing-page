@@ -25,6 +25,7 @@ export const StyledSocialIcons = styled.ul`
 
   a:hover {
     background-color: ${({theme}) => theme.projectColors.Pink};
+    border-color: ${({theme}) => theme.projectColors.Pink};
   }
 
   @media (min-width: ${({theme}) => theme.desktop}) {
