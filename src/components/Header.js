@@ -7,7 +7,7 @@ function Header() {
   return (
     <StyledHeader>
         <Nav>
-          <Logo src='../images/logo.svg' alt="logo" />
+          <Logo src='./images/logo.svg' alt="logo" />
           <Button padding="0.5em 2em">Try It Free</Button>
         </Nav>
         <Flex>
